@@ -1,2 +1,3 @@
 *.sln
-app/.vs
+app/.vs/
+v15
