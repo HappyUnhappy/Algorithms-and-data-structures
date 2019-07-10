@@ -6,7 +6,7 @@ A binary search tree (BST) is a node-based binary tree data structure which has 
 + The right subtree of a node contains only nodes with keys greater than node's key
 + You can't duplicate the node's key value
 
-In a binary tree? a node can have maximum two children.
+In a binary tree, a node can have maximum two children.
 
 ## The main operations in binary tree:
 
@@ -17,7 +17,7 @@ In a binary tree? a node can have maximum two children.
 * In-order Traversal
 * Post-order Traversal
 
-Time complexity in big O notation:
+### Time complexity in big O notation:
 
 | Algorithm | Average  | Worst case |
 |-----------|----------|------------|
