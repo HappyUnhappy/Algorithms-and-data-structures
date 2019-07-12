@@ -1,3 +1,7 @@
 *.sln
 app/.vs/
 v15
+Debug
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user

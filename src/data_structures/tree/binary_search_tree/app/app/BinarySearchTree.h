@@ -20,6 +20,7 @@ public:
 	~BinarySearchTree();
 
 	void insert(const T value);
+	void iterativeInsert(const T value);
 	void remove(const T value);
 	void search(const T value);
 	

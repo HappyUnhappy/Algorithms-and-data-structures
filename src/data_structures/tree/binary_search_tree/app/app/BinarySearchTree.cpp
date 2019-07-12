@@ -11,7 +11,7 @@ TreeNode<T> * BinarySearchTree<T>::insert(TreeNode<T> *node, T value) {
 
 	// if root doesn't exist or there isn't any child node
 	if (node == nullptr) {
-		node = new TreeNode;
+		node = new TreeNode<T>;
 		node->m_key = value;
 		node->parent = nullptr;
 		node->leftChild = nullptr;
@@ -36,4 +36,64 @@ TreeNode<T> * BinarySearchTree<T>::insert(TreeNode<T> *node, T value) {
 template <typename T>
 void BinarySearchTree<T>::insert(const T value) {
 	m_root = insert(m_root, value);
+}
+
+template<typename T>
+void BinarySearchTree<T>::iterativeInsert(const T value) {
+
+	TreeNode<T> *node = new TreeNode<T>;
+	node->m_key = value;
+	node->leftChild = nullptr;
+	node->rightChild = nullptr;
+
+	if (!m_root) {
+		m_root = node;
+		m_root->parent = nullptr;
+		return;
+	}
+	else {
+		TreeNode<T> *current = m_root;
+		TreeNode<T> *parent = nullptr;
+
+		while (1) {
+			parent = current;
+
+			if (current->m_key < value) {
+				current = current->rightChild;
+
+				if (!current) {
+					current = node;
+					current->parent = parent;
+				}
+			}
+			else {
+				current = current->leftChild;
+
+				if (!current) {
+					current = node;
+					current->parent = parent;
+				}
+			}
+		}
+	}
+}
+
+template<typename T>
+void BinarySearchTree<T>::remove(const T value)
+{
+}
+
+template<typename T>
+void BinarySearchTree<T>::search(const T value)
+{
+}
+
+template<typename T>
+void BinarySearchTree<T>::printTreeInOrder()
+{
+}
+
+template<typename T>
+void BinarySearchTree<T>::printTreePostOrder()
+{
 }
