@@ -69,8 +69,8 @@ Trees:
 * Breadth-First Search
 
 
-This materials taken from
-* Udemy free course (Algorithms and Data Structere by William Fiset)
-* GeeksForGeeks
-* Anggoro Wisnu Data Structures and Algorithms
-for my preparation to interview
+<p>This materials taken from </br>
+- Udemy free course (Algorithms and Data Structere by William Fiset) </br>
+- GeeksForGeeks </br>
+- Anggoro Wisnu Data Structures and Algorithms </br>
+for my preparation to interview </p>
