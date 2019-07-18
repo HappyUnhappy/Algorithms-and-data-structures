@@ -20,8 +20,8 @@ An abstruct data type (ADT) is an abstraction of a data structure which provides
 #### Big-O Notation
 Big-O Notation gives an upper bound of the complexity in the worst case, helping to quantify performance as the input size becomes arbitrarily large.
 
-n - The size of the input
-Complexities ordered in from smallest to largest
+<p>n - The size of the input<br>
+Complexities ordered in from smallest to largest</p>
 
 * Constant Time: O(1)
 * Logarithmic Time: O(log (n))
@@ -32,7 +32,11 @@ Complexities ordered in from smallest to largest
 * Exponential Time: O(b^n), b > 1
 * Factorial Time: O(n!)
 
----
+#### Big-O Properties
+<p>O(n + c) = O(n) </br>
+O(c n) = O(n), c > 0 </p>
+
+<hr />
 
 ### Data Structures Types:
 * Static Array
