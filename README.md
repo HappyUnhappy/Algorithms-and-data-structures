@@ -17,3 +17,17 @@ Algorithms and data structures implemented in C++ with explanations.
 * Red-Black Tree
 * Splay Tree
 * AVL Tree
+
+
+## Algorithms
+
+Sorting:
+* Bubble Sort
+* Quick Sort
+* Insertion Sort
+* Merge Sort
+* Selection Sort
+
+Trees:
+* Depth-First Search
+* Breadth-First Search
